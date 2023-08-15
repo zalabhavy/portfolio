@@ -419,12 +419,12 @@ form .btn2
     .header-text
     {
         margin-top: 100%;
-        font-size: 12px;
+        font-size: 16px;
         /* 16 */
     }
     .header-text h1
     {    
-        font-size: 18px;
+        font-size: 22px;
         /* 30 */
     }
     nav .fa-solid
@@ -463,6 +463,10 @@ form .btn2
         font-size: 30px;
         /* 30 */
 
+    }
+    .sub-title p
+    {
+        font-size: 18px;
     }
     .about-col-1,.about-col-2
     {
