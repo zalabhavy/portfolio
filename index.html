@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavy's Portfolio</title>
+    <link rel="stylesheet" href="sty.css">
+    <link href="favicon.ico">
+    <script src="https://kit.fontawesome.com/2e15ae7710.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="img/logofix.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+               <div class="header-text">
+                   <p>Devloper & Programmer</p>
+                   <h1>Hi , I'm <br><span>Bhavy Zala</span> <br>From Nirma<br> University Ahmedabad</h1>
+               </div>
+         </div>
+    </div>
+    <!-- ----------about--------- --> 
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/img1.jpg" height="900px" width="700px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am currently a student pursuing a degree in Computer Science & Engineering at Nirma University.<br><br> My interests lie in exploring new and emerging technologies, solving complex problems, engaging in web design, and undertaking various projects.
+
+                        I have a strong foundation in programming languages such as C++, Java, and Python.I am also proficient in web development technologies including HTML, CSS, and JavaScript. My knowledge extends to database management using SQL, and I am well-versed in Data Structures and Algorithms (DSA).
+                        
+                        <br><br>My learning journey is ongoing, and I continuously strive to expand my skill set. I consider myself a fast learner with a deep enthusiasm for mastering new technologies. I am eager to take on challenges and contribute to innovative projects that leverage the latest advancements in the technology field.</p>
+                        <br>
+            
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('codingplatforms')">Coding Platfroms</p>
+                            <p class="tab-links" onclick="opentab('achivements')">Achivements</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C++:-</span><br><br>Include DSA</li>
+                                <li><span>HTML/CSS/JAVASRIPT:-</span><br><br>Web devlopment</li>
+                                <li><span>SQL:-</span><br><br>Data Managment</li>
+                                <li><span>Java:-</span><br><br>OOPS</li>
+                                <li><span>Python:-</span><br><br>AI & ML</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="codingplatforms">
+                            <ul>
+                                <li><span>Codeforces</span><br><br><a href="https://codeforces.com/profile/Bhavy_Zala"><img src="img/codeforces.png" height="50px" width="50px"></a> <i class="fa-solid fa-arrow-left"></i> <h2 style="display: inline;">Max Rating:-1011</h2></li>
+                                <li><span>Leetcode</span><br><br><a href="https://leetcode.com/Bhavy_zala/"><img src="img/leetcode.png" height="50px" width="50px"></a> <i class="fa-solid fa-arrow-left"></i> <h2 style="display: inline;">Max Rating:-1400(85%)</h2></li>
+                                <li><span>Geeksforgeeks</span><br><br><a href="https://auth.geeksforgeeks.org/user/zalabhah312/practice"><img src="img/geeks.png" height="50px" width="50px"></a> <i class="fa-solid fa-arrow-left"></i> <h2 style="display: inline;">Score(500+)</h2></li>
+                                <li><span>CodingNinjas</span><br><br><a href="https://www.codingninjas.com/studio/profile/Bhavy_Zala"><img src="img/codingninjas.png" height="50px" width="50px"></a> <i class="fa-solid fa-arrow-left"></i> <h2 style="display: inline;">Solved(120+)</h2></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="achivements">
+                            <ul>
+                                <li><span>Collage Topper</span><br><br>Best:-8.83 SPI</li>
+                                <li><span>Problem Solved</span><br><br>Solved:-1000+ Problems</li>
+                                <li><span>Goodies</span><br><br>T-Shirt(Geeksforgeeks)</li>
+                                <li><span>Course</span><br><br>IIT-Madrash(Python)</li>
+                                <li><span>Sports</span><br><br>Certificates</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>10th-GSEB</span><br><br>Result:89.5%</li>
+                                <li><span>12th-GSEB</span><br><br>Result:92%</li>
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+        </div> 
+     </div>
+     <!-- -------------services------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Web Desining</h2>
+                    <p>Contact to discuss your project and embark on a journey to create a website that leaves a lasting impression and drives business success. Let's transform your digital vision into a captivating reality.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-poll-vertical"></i>
+                    <h2>DSA knowledge</h2>
+                    <p>Connect with fellow learners, share insights, and collaborate on coding challenges. Engage in discussions, seek help, and build a network of like-minded individuals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Unlock the potential within you to confidently address obstacles, drive innovation, and create positive change. Problem-Solving Services provide you with a holistic approach to mastering this essential skill. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- ------------portfolion----------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div  class="work-list">
+                <div class="work">
+                    <img src="img/toli.png" alt="" width="300px" height="400px">
+                    <div class="layer">
+                        <h3>TodoList</h3>
+                        <p>It helps in organizing tasks based on their deadlines, importance, or categories, reducing the likelihood of forgetting or overlooking something.</p>
+                        <a href="http://127.0.0.1:5501/pro2new.html#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/shoping (1).jpg" alt="" width="300px" height="400px">
+                    <div class="layer">
+                        <h3>Shopping Website</h3>
+                        <p>An effective frontend begins with easy-to-use navigation. Clear menus help users quickly find the products they're interested in.</p>
+                        <a href="http://127.0.0.1:5501/codeweb.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/bloglist (1).png" alt="" width="300px" height="400px">
+                    <div class="layer">
+                        <h3>Blog Website</h3>
+                        <p>It helps in organizing tasks based on their deadlines, importance, or categories, reducing the likelihood of forgetting or overlooking something.</p>
+                        <a href="http://127.0.0.1:5501/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+     </div>
+     <!-- ----------------contect------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-regular fa-envelope"></i>bhavyzala2109@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>84######96</p>
+                 <div class="social-icons">
+                     <a href="https://www.linkedin.com/in/bhavy-zala-59bb76241"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/bhavy_zala499?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/ZBhavy2109?t=z898f3w5NtQ9xCkoidlvmg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.threads.net/@bhavy_zala499"><i class="fa-brands fa-threads"></i></a>
+                 </div>
+                 <a href="Bhavy_Zala.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>  Bz <i class="fa-solid fa-heart fa-bounce"></i> Made by Bhavy Zala</p>
+
+    </div>
+</div>
+     <script>
+             var tablinks = document.getElementsByClassName("tab-links");
+             var tabcontents= document.getElementsByClassName("tab-contents");
+             function opentab(tabname)
+             {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+                
+             }
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx4rjxYTebCo-IRKSnezew0yHcYZmkIunPn3aAmLQCeENoF2WEMTj19HNJTKPRCky0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent successfully" 
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+      </script>
+    
+</body>
+</html>
